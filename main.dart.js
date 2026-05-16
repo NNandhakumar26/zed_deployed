@@ -116056,7 +116056,7 @@ A.b6U.prototype={
 $1(a){return new A.th()},
 $S:739}
 A.b5V.prototype={
-$1(a){return A.btf("http://3.22.97.244",new A.b5T(a),new A.b5U(a),a.aO($.bdT(),t.ka))},
+$1(a){return A.btf("https://api.zedpos.ca",new A.b5T(a),new A.b5U(a),a.aO($.bdT(),t.ka))},
 $S:740}
 A.b5U.prototype={
 $0(){var s=0,r=A.u(t.y),q,p=2,o=[],n=this,m,l,k
@@ -118937,7 +118937,7 @@ i=A.lq(A.b([B.FK,A.eJ(!1,n.x,B.Q0,m,m,m,1,!1,m,m,m,!1,m,B.R,new A.aLo())],h),i,n
 s=n.ch
 r=A.b([B.pB,A.rY(B.Q5,m,n.y,B.ns,m,new A.aLr(n),m,m,t.y),B.aa,B.FV],h)
 q=n.z
-if(q!=null&&n.Q==null)r.push(A.cR(new A.aF(B.aN,A.ajm(B.av,new A.q0(B.c.bi(q,"http")?q:"http://3.22.97.244/"+q),m,50),m),m,m))
+if(q!=null&&n.Q==null)r.push(A.cR(new A.aF(B.aN,A.ajm(B.av,new A.q0(B.c.bi(q,"http")?q:"https://api.zedpos.ca/"+q),m,50),m),m,m))
 q=n.z
 p=q==null
 q=p?B.bN:new A.c_(q,B.ax,B.Z)
@@ -119139,7 +119139,7 @@ if(this.c)return new A.a0B(s,b,!0,new A.cr(q.gh3(),p))
 else return A.aC(r,s,B.m,r,r,r,r,r,new A.cr(q.gh3(),p),r,r,r,r,r)},
 $S:844}
 A.aLB.prototype={
-$1(a){var s,r,q="http://3.22.97.244/",p=this.a.d
+$1(a){var s,r,q="https://api.zedpos.ca/",p=this.a.d
 A.nq("The image path is "+(q+A.o(p)))
 s=p!=null
 if(s&&p.length!==0)r=new A.q0(B.c.bi(p,"http")?p:q+p)
